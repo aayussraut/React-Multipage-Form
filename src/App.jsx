@@ -2,12 +2,11 @@ import { useState } from "react";
 // import reactLogo from './assets/react.svg'
 import "bootstrap/dist/css/bootstrap.min.css";
 // import "./App.css";
-import ApplicantData from "./components/Page1";
-
+import MultipageForm from "./components/MultipageForm";
 function App() {
-  // const [count, setCount] = useState(0);
+  const [formData, setFormData] = useState({});
 
-  return <ApplicantData />;
+  return <MultipageForm />;
 }
 
 export default App;
